@@ -1,14 +1,12 @@
 ---
 seo:
-  title: Base de Conhecimento para Agentes de IA
-  description: Repositório de conhecimento estruturado em Markdown para consumo
-    por agentes de IA em IDEs e ferramentas de desenvolvimento. Documentação
-    clara e organizada para facilitar a compreensão e manutenção.
+  title: Context Directory
+  description: Base de Conhecimento para Agentes de IA em IDEs e ferramentas de desenvolvimento.
 ---
 
 ::u-page-hero
 #title
-Base de Conhecimento para Agentes de IA
+Context Directory
 
 #description
 Este repositório serve como uma base de conhecimento estruturada em Markdown,
