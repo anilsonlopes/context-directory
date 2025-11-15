@@ -1,71 +1,80 @@
-# Docus Default Starter
+# Base de Conhecimento para Agentes de IA
 
-> A beautiful, minimal starter for creating documentation with Docus
+> Repositório de conhecimento estruturado em Markdown para consumo por agentes de IA em IDEs e ferramentas de desenvolvimento
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
+Este repositório serve como uma **base de conhecimento centralizada** projetada
+especificamente para ser consumida por agentes de IA que operam em IDEs e outras
+ferramentas de desenvolvimento.
 
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
+O conteúdo está organizado em arquivos Markdown estruturados, facilitando a
+leitura, processamento e navegação por sistemas de IA.
 
-## ✨ Features
+## ✨ Características
 
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
+- 🤖 **Otimizado para Agentes de IA** - Estrutura e formatação pensadas para facilitar processamento por IA
+- 📝 **Documentação em Markdown** - Formato legível tanto para humanos quanto máquinas
+- 🌳 **Estrutura Hierárquica** - Organização clara em diretórios e seções
+- 🔍 **Busca Semântica** - Estrutura que facilita busca e navegação contextual
+- 📚 **Conteúdo Contextual** - Explicações claras e objetivas com exemplos práticos
+- 🔄 **Versionamento** - Controle de versão para rastreamento de mudanças
+- 🌐 **Português do Brasil** - Todo o conteúdo em português brasileiro
+- ⚡ **Fácil Manutenção** - Convenções claras para atualização e expansão do conteúdo
 
-## 🚀 Quick Start
+## 🚀 Início Rápido
 
 ```bash
-# Install dependencies
+# Instalar dependências
 npm install
 
-# Start development server
+# Iniciar servidor de desenvolvimento
 npm run dev
 ```
 
-Your documentation site will be running at `http://localhost:3000`
+O site de documentação estará disponível em `http://localhost:3000`
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
+context-directory/
+├── content/                    # Conteúdo em Markdown
+│   ├── index.md               # Página inicial
+│   ├── 1.getting-started/     # Seção introdutória
+│   │   ├── 1.para-agentes-ia.md
+│   │   ├── 2.introduction.md
+│   │   └── ...
+│   └── 2.essentials/          # Conteúdo essencial
+│       ├── 1.markdown-syntax.md
+│       └── ...
+├── public/                     # Recursos estáticos
+└── package.json               # Dependências e scripts
 ```
 
-## ⚡ Built with
+## ⚡ Construído com
 
-This starter comes pre-configured with:
+Este repositório utiliza:
 
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt UI](https://ui.nuxt.com) - UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
+- [Nuxt 4](https://nuxt.com) - Framework web
+- [Nuxt Content](https://content.nuxt.com/) - CMS baseado em arquivos
+- [Nuxt UI](https://ui.nuxt.com) - Componentes de UI
+- [Docus Layer](https://www.npmjs.com/package/docus) - Tema de documentação
 
-## 📖 Documentation
+## 📖 Documentação
 
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
+Para informações sobre como agentes de IA devem consumir este repositório, consulte
+a documentação em `/content/1.getting-started/1.para-agentes-ia.md`.
 
-## 🚀 Deployment
+Para guias sobre manutenção de conteúdo, veja `/content/1.getting-started/7.manutencao-conteudo.md`.
 
-Build for production:
+## 🚀 Deploy
+
+Para build de produção:
 
 ```bash
 npm run build
 ```
 
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
+Os arquivos compilados estarão no diretório `.output`, prontos para deploy em qualquer
+provedor de hospedagem que suporte Node.js.
 
 ## 📄 License
 

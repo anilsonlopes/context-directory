@@ -1,29 +1,29 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Base de Conhecimento para Agentes de IA
+  description: Repositório de conhecimento estruturado em Markdown para consumo
+    por agentes de IA em IDEs e ferramentas de desenvolvimento. Documentação
+    clara e organizada para facilitar a compreensão e manutenção.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Base de Conhecimento para Agentes de IA
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Este repositório serve como uma base de conhecimento estruturada em Markdown,
+projetada especificamente para ser consumida por agentes de IA em IDEs e outras
+ferramentas de desenvolvimento.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /getting-started/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Começar
   :::
 
   :::u-button
@@ -34,90 +34,84 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   to: https://github.com/nuxt-content/docus
   variant: outline
   ---
-  Star on GitHub
+  Ver no GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Características Principais
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-brain
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  [Otimizado para Agentes de IA]{.text-primary}
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Estrutura e formatação pensadas para facilitar a compreensão e processamento
+  por agentes de IA. Conteúdo organizado e semântico para melhor interpretação.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-file-text
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  [Documentação em Markdown]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Todo o conteúdo é escrito em Markdown, facilitando a leitura, manutenção e
+  processamento por ferramentas de desenvolvimento e agentes de IA.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-folder-tree
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  [Estrutura Organizada]{.text-primary}
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Hierarquia clara de diretórios e arquivos que permite navegação intuitiva e
+  localização rápida de informações específicas.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-code
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  [Sintaxe Padronizada]{.text-primary}
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Convenções de formatação consistentes garantem que o conteúdo seja facilmente
+  interpretado e processado por diferentes agentes e ferramentas.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-git-branch
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  [Versionamento e Manutenção]{.text-primary}
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Controle de versão permite rastreamento de mudanças e colaboração eficiente
+  na atualização e expansão da base de conhecimento.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-search
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  [Busca e Navegação]{.text-primary}
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Estrutura que facilita busca semântica e navegação contextual, permitindo
+  que agentes encontrem informações relevantes rapidamente.
   :::
 ::
