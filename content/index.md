@@ -20,7 +20,7 @@ ferramentas de desenvolvimento.
   ---
   color: neutral
   size: xl
-  to: /getting-started/introduction
+  to: /getting-started/introducao
   trailing-icon: i-lucide-arrow-right
   ---
   Começar

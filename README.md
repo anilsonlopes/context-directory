@@ -40,10 +40,10 @@ context-directory/
 │   ├── index.md               # Página inicial
 │   ├── 1.getting-started/     # Seção introdutória
 │   │   ├── 1.para-agentes-ia.md
-│   │   ├── 2.introduction.md
+│   │   ├── 2.introducao.md
 │   │   └── ...
 │   └── 2.essentials/          # Conteúdo essencial
-│       ├── 1.markdown-syntax.md
+│       ├── 1.sintaxe-markdown.md
 │       └── ...
 ├── public/                     # Recursos estáticos
 └── package.json               # Dependências e scripts
