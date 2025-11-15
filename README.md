@@ -20,44 +20,6 @@ leitura, processamento e navegação por sistemas de IA.
 - 🌐 **Português do Brasil** - Todo o conteúdo em português brasileiro
 - ⚡ **Fácil Manutenção** - Convenções claras para atualização e expansão do conteúdo
 
-## 🚀 Início Rápido
-
-```bash
-# Instalar dependências
-npm install
-
-# Iniciar servidor de desenvolvimento
-npm run dev
-```
-
-O site de documentação estará disponível em `http://localhost:3000`
-
-## 📁 Estrutura do Projeto
-
-```
-context-directory/
-├── content/                    # Conteúdo em Markdown
-│   ├── index.md               # Página inicial
-│   ├── 1.primeiros-passos/     # Seção introdutória
-│   │   ├── 1.para-agentes-ia.md
-│   │   ├── 2.introducao.md
-│   │   └── ...
-│   └── 2.essentials/          # Conteúdo essencial
-│       ├── 1.sintaxe-markdown.md
-│       └── ...
-├── public/                     # Recursos estáticos
-└── package.json               # Dependências e scripts
-```
-
-## ⚡ Construído com
-
-Este repositório utiliza:
-
-- [Nuxt 4](https://nuxt.com) - Framework web
-- [Nuxt Content](https://content.nuxt.com/) - CMS baseado em arquivos
-- [Nuxt UI](https://ui.nuxt.com) - Componentes de UI
-- [Docus Layer](https://www.npmjs.com/package/docus) - Tema de documentação
-
 ## 📖 Documentação
 
 Para informações sobre como agentes de IA devem consumir este repositório, consulte
@@ -65,17 +27,6 @@ a documentação em `/content/1.primeiros-passos/1.para-agentes-ia.md`.
 
 Para guias sobre manutenção de conteúdo, veja `/content/1.primeiros-passos/7.manutencao-conteudo.md`.
 
-## 🚀 Deploy
-
-Para build de produção:
-
-```bash
-npm run build
-```
-
-Os arquivos compilados estarão no diretório `.output`, prontos para deploy em qualquer
-provedor de hospedagem que suporte Node.js.
-
 ## 📄 License
 
-[MIT License](https://opensource.org/licenses/MIT) 
+[MIT License](https://opensource.org/licenses/MIT)

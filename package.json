@@ -1,5 +1,5 @@
 {
-  "name": "docus-starter",
+  "name": "context-directory",
   "version": "1.0.0",
   "description": "Base de conhecimento estruturada em Markdown para consumo por agentes de IA em IDEs e ferramentas de desenvolvimento",
   "keywords": [
