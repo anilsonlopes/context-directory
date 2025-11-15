@@ -1,5 +1,23 @@
 {
   "name": "docus-starter",
+  "version": "1.0.0",
+  "description": "Base de conhecimento estruturada em Markdown para consumo por agentes de IA em IDEs e ferramentas de desenvolvimento",
+  "keywords": [
+    "knowledge-base",
+    "markdown",
+    "documentation",
+    "ai-agents",
+    "ide",
+    "context-directory",
+    "portugues-brasil",
+    "docus",
+    "nuxt"
+  ],
+  "author": "anilsonlopes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilsonlopes/context-directory.git"
+  },
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus"

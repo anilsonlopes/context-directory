@@ -38,7 +38,7 @@ O site de documentação estará disponível em `http://localhost:3000`
 context-directory/
 ├── content/                    # Conteúdo em Markdown
 │   ├── index.md               # Página inicial
-│   ├── 1.getting-started/     # Seção introdutória
+│   ├── 1.primeiros-passos/     # Seção introdutória
 │   │   ├── 1.para-agentes-ia.md
 │   │   ├── 2.introducao.md
 │   │   └── ...
@@ -61,9 +61,9 @@ Este repositório utiliza:
 ## 📖 Documentação
 
 Para informações sobre como agentes de IA devem consumir este repositório, consulte
-a documentação em `/content/1.getting-started/1.para-agentes-ia.md`.
+a documentação em `/content/1.primeiros-passos/1.para-agentes-ia.md`.
 
-Para guias sobre manutenção de conteúdo, veja `/content/1.getting-started/7.manutencao-conteudo.md`.
+Para guias sobre manutenção de conteúdo, veja `/content/1.primeiros-passos/7.manutencao-conteudo.md`.
 
 ## 🚀 Deploy
 
